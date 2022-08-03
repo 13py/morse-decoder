@@ -41,7 +41,6 @@ function decode(expr) {
     let text = "";
     for (let i of expr.split("**********")) {
         let current = "";
-        let letter = "";
         let tempWord = "";
         let num = 0;
 
